@@ -1,0 +1,125 @@
+/* ===========================
+   ReconFlow Global Styles
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI",sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+}
+
+a{
+    text-decoration:none;
+}
+
+.container{
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.btn{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    border-radius:8px;
+    padding:12px 18px;
+    font-size:15px;
+    transition:.3s;
+}
+
+.btn-primary{
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+.btn-primary:hover{
+
+    background:#1d4ed8;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:12px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+input{
+
+    width:100%;
+
+    padding:14px;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+    font-size:15px;
+
+}
+
+label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.form-group{
+
+    margin-bottom:20px;
+
+}
+
+.logo{
+
+    font-size:32px;
+
+    color:#2563eb;
+
+    font-weight:bold;
+
+}
+
+.login-wrapper{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+}
+
+.login-card{
+
+    width:420px;
+
+    padding:40px;
+
+}
+
+.login-card p{
+
+    color:#777;
+
+}
